@@ -1,0 +1,213 @@
+/* background */
+body {
+    background-color: rgb(2, 2, 35);
+}
+p{
+font-family: 'Kalam', 'cursive';
+font-weight: 100;
+font-size: larger;
+}
+
+/* Navigation */
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid whitesmoke;
+    background-color:whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.navigation li {
+    float: left;
+    border-right: 1px solid whitesmoke;
+  }
+
+  .navigation li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:white;
+    color:#666;
+  }
+
+li:last-child {
+    border-right: none;
+  }
+
+/* login */
+.ln a:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.ln a {
+    color: gold;
+}
+
+.material-icons {
+    padding: 10px;
+    font-size: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+/* image */
+.image img{
+    width: 100%;
+    height: 250px;
+}
+/* Register Button */
+button {
+    align-items: center;
+    background-color: purple;
+    background-size: cover;
+    border-color: white;
+    tab-size: 0px;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+}
+.register {
+    text-align: center;
+    /* width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; */
+}
+.register button:hover {
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+/* FAQs */
+.layout {
+    /* width: 600px; */
+    margin: auto;
+}
+.accordion {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(2, 2, 35);
+    border-radius: 10px;
+}
+.accordion__question p {
+    margin: 5px;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: italic;
+    color: whitesmoke;
+}
+.accordion__question p:hover
+{
+    color:gray
+}
+.accordion__answer p {
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+    background: rgb(2, 2, 35);
+    border-radius: 10px;
+}
+.accordion:hover {
+    cursor: pointer;
+}
+.accordion__answer {
+    display: none;
+}
+.accordion.active .accordion__answer {
+    display: block;
+}
+p.accordion__answer{
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Footer */
+.footer {
+    background: rgb(2, 2, 35);
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: purple;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: purple;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 0px 10px;
+        text-align: center;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
+
+/* login */
+.ln a:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.ln a {
+    color: gold;
+}
